@@ -2,18 +2,18 @@
 
 ## Student information
 
-* Full name:
-* E-mail:
-* UCR NetID:
-* Student ID:
+* Full name: Mehar Singh
+* E-mail: msing043@ucr.edu
+* UCR NetID: msing043
+* Student ID: 862108533
 
 ## Answers
 
 * (Q1) What is the result?
 
-  ```text
-  # Replace here with the result
-  ```
+[
+        5
+]
 
 * (Q2) Which query did you use and what is the answer?
   
