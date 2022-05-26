@@ -16,14 +16,7 @@
 ]
 
 * (Q2) Which query did you use and what is the answer?
-  
-  ```sql
-  /* Replace here with your query */
-  ```
 
-  ```text
-  # Replace here with your answer
-  ```
 
 * (Q3) Include the query in your README file
 
