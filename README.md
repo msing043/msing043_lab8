@@ -41,9 +41,13 @@ WHERE location_description ="GAS STATION";
 
 * (Q3) Include the query in your README file
 
-  ```sql
-  /* Replace here with your query */
-  ```
+USE chicago_crimes_sample;
+SELECT year, count(*) AS count FROM (
+  SELECT print_datetime(parse_datetime(date_value, "MM/DD/YYYY hh:mm:ss a"), "YYYY") AS year
+  FROM ChicagoCrimes
+) AS year
+GROUP BY year
+ORDER BY count DESC;
 
 * (Q4) Which `district` has the most number of crimes? Include the query and the answer in the README file.
 
