@@ -16,7 +16,28 @@
 ]
 
 * (Q2) Which query did you use and what is the answer?
+USE chicago_crimes_sample;
+select DISTINCT(primary_type) 
+FROM ChicagoCrimes 
+WHERE location_description ="GAS STATION";
 
+[
+        {
+                "primary_type": "DECEPTIVE PRACTICE"
+        },
+        {
+                "primary_type": "ROBBERY"
+        },
+        {
+                "primary_type": "THEFT"
+        },
+        {
+                "primary_type": "BATTERY"
+        },
+        {
+                "primary_type": "MOTOR VEHICLE THEFT"
+        }
+]
 
 * (Q3) Include the query in your README file
 
